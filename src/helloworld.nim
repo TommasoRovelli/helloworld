@@ -4,7 +4,7 @@ import os
 
 when isMainModule:
 
-  if commandLineParams().len != 0:
+  if paramCount() != 0:
     echo "Hello, ", commandLineParams()[0], "!"
   else:
     echo "Hello, World!"
